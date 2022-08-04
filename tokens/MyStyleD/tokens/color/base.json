@@ -1,11 +1,17 @@
 {
-  "global": {
-    "color": {
+  "color": {
+    "base": {
       "teal": {
         "value": "#93f0c0",
         "type": "color"
-      }
+      },
+      "gray": {
+        "light" : { "value": "#CCCCCC" },
+        "medium": { "value": "#999999" },
+        "dark"  : { "value": "#000000" }
+      },
+      "red": { "value": "#FF0000" },
+      "green": { "value": "#00FF00" }
     }
-  },
-  "$themes": []
+  }
 }
